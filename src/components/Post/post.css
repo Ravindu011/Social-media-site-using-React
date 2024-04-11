@@ -1,0 +1,79 @@
+.postImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.postTop{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+
+}
+.postCaption{
+    margin-left: 10px;
+}
+
+.postUname{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+.postTime{
+    font-size: 10px;
+    color: gray;
+
+}
+
+.Post{
+    font-family: sans-serif;
+    width: 98%;
+}
+
+.postImage{
+    width: 98%;
+    background-size: cover;
+    margin-left: 5px;
+}
+.postContainer{
+    -webkit-box-shadow: 0px 3px 16px -9px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 3px 16px -9px rgba(66, 68, 90, 1);
+    box-shadow: 0px 3px 16px -9px rgba(66, 68, 90, 1);
+    margin: 30px 0;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.postCenter{
+    margin: 20px 0;
+}
+.postBottom{
+    width: 98%;
+    align-items: center;
+    display: flex;
+    margin-left: 5px;
+    justify-content: space-between;
+}
+.reactionPic{
+    width: 24px;
+    height: 24px;
+    margin-left: 1px;
+    cursor: pointer;
+}
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+.likeCount{
+    margin-left: 5px;
+    font-size: 15px;
+}
+.commentCount{
+    font-size: 12px;
+    margin-right: 10px;
+    border-bottom: 1px dashed gray;
+    cursor: pointer;
+}
