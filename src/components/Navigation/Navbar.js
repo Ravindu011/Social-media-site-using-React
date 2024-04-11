@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <div className='navBarBox'>
         <div className="navBarLeft">
-            <span className="logo">marketbook</span>
+            <span className="logo">Z-Universe</span>
         </div>
         <div className="navBarCenter">
             <div className="searchBox">
